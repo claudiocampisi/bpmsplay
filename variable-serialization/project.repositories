@@ -19,17 +19,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>H:/tmp/local-m2</url>
-        <source>LOCAL</source>
+        <id>jboss-brms-bpmsuite-plugin-repository</id>
+        <url>file://H:/dev/maven-repo/jboss-brms-bpmsuite-6.4.0.GA-maven-repository/maven-repository</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-brms-bpmsuite-plugin-repository</id>
-        <url>file://H:/dev/maven-repo/jboss-brms-bpmsuite-6.4.0.GA-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>H:/tmp/local-m2</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>

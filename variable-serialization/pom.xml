@@ -7,6 +7,13 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>variable-serialization</name>
+  <dependencies>
+    <dependency>
+      <groupId>keypartner</groupId>
+      <artifactId>variable-serialization-model</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
