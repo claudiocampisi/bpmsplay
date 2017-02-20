@@ -3,14 +3,14 @@ Repository Init Content
 
 Project to test serialization of java.time.LocalDateTime variables.
 
-In order to reproduce the error you should clone the repository in business-central, build it, create a container (e.g. keypartner:variable-serialization:1.0) and then using a rest client (e.g postman) create the following request, using the correct values for host and port:
+In order to reproduce the error you should clone the repository in business-central, build "variable-serialization" project, create a container based on variable-serialization kjar (e.g. keypartner:variable-serialization:1.0) and then using a rest client (e.g postman) to create the following request, using the correct values for host and port:
 
-Request URI
+Request URI ->
 http://localhost:8080/kie-server/services/rest/server/containers/keypartner:variable-serialization:1.0/processes/variable-serialization.localdatetime-sample-process/instances
 
 Request Method -> POST
 
-Request Payload
+Request Payload -> 
 {"request":{"keypartner.MyPojo":{"creationTime":"2017-02-18T16:10:37.063"}}}
 
 The call should trigger the following error:
